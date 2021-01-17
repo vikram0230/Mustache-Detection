@@ -86,21 +86,25 @@ Train last 17 of Inception model + Trial 4
 
 ### Trial 9 🟡
 
-Trial 4 + training last 52 layers of inception
+*Trial 4* + training last 52 layers of inception
 
 > Result: Better Learning. Too many fluctuations on validation.
 
 ### Trial 10 🟢
 
-Trial 1 + training last 52 layers of inception
+*Trial 1* + training last 52 layers of inception
 
 > Result: Best Learning. Overfits after 7 epochs with 87.4% validation accuracy.
 
+![Accuracy Graph](https://github.com/vikram0230/Mustache-Detection/blob/main/Mustache%20Detection%20without%20OpenCV/graphs/trial%2010-acc.png?raw=true)
+
 #### *Additional Trials*
 
-* Trial 10 + 1024 relu layer
+* *Trial 10* + 1024 relu layer
 
 > Result: Learning is slow after 3 epochs. Reached an accuracy of 88.4% on validation
+
+![Accuracy Graph](https://github.com/vikram0230/Mustache-Detection/blob/main/Mustache%20Detection%20without%20OpenCV/graphs/trial10.1-acc.png?raw=true)
 
 ### Additional Ideas
 
